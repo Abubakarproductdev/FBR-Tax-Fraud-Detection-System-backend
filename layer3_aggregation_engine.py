@@ -199,7 +199,7 @@ def main():
             COALESCE(SUM(CAST(f.tax_paid_pkr        AS DOUBLE)), 0) AS total_tax_paid
         FROM layer2 l2
         INNER JOIN fbr f ON l2.source_record_id = f.fbr_id
-        WHERE l2.source_database = 'FBR'
+        WHERE UPPER(l2.source_database) = 'FBR'
         GROUP BY l2.canonical_id
     ),
 
@@ -210,7 +210,7 @@ def main():
             COALESCE(SUM(CAST(e.estimated_market_value_pkr AS DOUBLE)), 0) AS vehicle_footprint_pkr
         FROM layer2 l2
         INNER JOIN excise e ON l2.source_record_id = e.vehicle_reg_no
-        WHERE l2.source_database = 'Excise'
+        WHERE UPPER(l2.source_database) = 'EXCISE'
         GROUP BY l2.canonical_id
     ),
 
@@ -221,7 +221,7 @@ def main():
             COALESCE(SUM(CAST(p.property_value_pkr AS DOUBLE)), 0) AS property_footprint_pkr
         FROM layer2 l2
         INNER JOIN property p ON l2.source_record_id = p.registry_deed_no
-        WHERE l2.source_database = 'Property'
+        WHERE UPPER(l2.source_database) = 'PROPERTY'
         GROUP BY l2.canonical_id
     ),
 
@@ -232,7 +232,7 @@ def main():
             COALESCE(SUM(CAST(u.avg_monthly_bill_pkr AS DOUBLE) * 12), 0) AS annual_utility_bill_pkr
         FROM layer2 l2
         INNER JOIN utility u ON l2.source_record_id = u.meter_ref_no
-        WHERE l2.source_database = 'Utility'
+        WHERE UPPER(l2.source_database) = 'DISCO'
         GROUP BY l2.canonical_id
     ),
 
