@@ -1,0 +1,47 @@
+[
+    {
+        "canonical_id": "7269e5a2-d789-4bc7-835e-8dd25b5a6af6",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 774948.0,
+        "gnn_structural_anomaly_score": 100.0,
+        "final_hybrid_risk_score": 100.0,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 774,948. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+    },
+    {
+        "canonical_id": "e5e4dc83-fc03-49f7-8c5b-7fb37f4663f7",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 651192.0,
+        "gnn_structural_anomaly_score": 89.46,
+        "final_hybrid_risk_score": 95.78,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 651,192. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 89.46 / 100. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+    },
+    {
+        "canonical_id": "82ec8b38-fa24-4929-bb25-5c39ba3924b3",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 268440.0,
+        "gnn_structural_anomaly_score": 72.31,
+        "final_hybrid_risk_score": 88.92,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 268,440, which is their annual utility bills. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a GNN Structural Anomaly Score of 72.31 / 100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+    },
+    {
+        "canonical_id": "52766d31-b651-43f7-9172-17dde2f829f9",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 93324.0,
+        "gnn_structural_anomaly_score": 67.05,
+        "final_hybrid_risk_score": 86.82,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 93,324. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 67.05 out of 100. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income."
+    },
+    {
+        "canonical_id": "2d3b13bf-4a40-4993-85d9-d378cbc4b64f",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 92424.0,
+        "gnn_structural_anomaly_score": 67.02,
+        "final_hybrid_risk_score": 86.81,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 92,424. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 67.02/100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+    }
+]
