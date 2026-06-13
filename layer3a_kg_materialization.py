@@ -16,11 +16,14 @@
 import os
 import pandas as pd
 from neo4j import GraphDatabase
+from dotenv import load_dotenv
 
-# ── Neo4j AuraDB Credentials ──
-URI = "neo4j+s://711036cd.databases.neo4j.io"
-USER = "neo4j"
-PASSWORD = "khp3xuUZscnYF-XeQqrtHbvWOxBvr-hDCfMV2PYuckc"
+load_dotenv()
+
+# ── Memgraph Cloud Credentials ──
+URI = os.getenv("MEMGRAPH_URI")
+USER = os.getenv("MEMGRAPH_USER")
+PASSWORD = os.getenv("MEMGRAPH_PASSWORD")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -170,9 +173,31 @@ def ingest_fbr_returns(session, layer2_df):
         
     print(f"       ✓ Created {len(records):,} TaxReturns and (Person)-[:FILED]->(TaxReturn) relationships.")
 
+def infer_spatial_edges(session):
+    print("\n[8/8] Inferring Spatial/Behavioral Edges...")
+    
+    query_colocated = """
+    MATCH (p1:Person), (p2:Person)
+    WHERE p1.canonical_id < p2.canonical_id 
+      AND p1.normalized_address = p2.normalized_address 
+      AND p1.normalized_address <> ""
+    MERGE (p1)-[:CO_LOCATED_WITH]->(p2)
+    MERGE (p2)-[:CO_LOCATED_WITH]->(p1)
+    """
+    session.run(query_colocated)
+    print("       ✓ Created [:CO_LOCATED_WITH] edges for persons sharing addresses.")
+    
+    query_wealth = """
+    MATCH (p1:Person)-[:CO_LOCATED_WITH]-(p2:Person)-[:RESIDES_AT]->(prop:Property)
+    WHERE NOT (p1)-[:RESIDES_AT]->(prop)
+    MERGE (p1)-[:SHARED_HOUSEHOLD_WEALTH]->(prop)
+    """
+    session.run(query_wealth)
+    print("       ✓ Created [:SHARED_HOUSEHOLD_WEALTH] inferred edges.")
+
 def main():
     print("="*78)
-    print("  LAYER 3A ── Knowledge Graph Materialization (Neo4j)")
+    print("  LAYER 3A ── Knowledge Graph Materialization (Memgraph)")
     print("="*78)
     
     # Load layer2 once to map source IDs to canonical IDs for relationships
@@ -182,7 +207,7 @@ def main():
         driver = GraphDatabase.driver(URI, auth=(USER, PASSWORD))
         # Verify connectivity
         driver.verify_connectivity()
-        print("\n✓ Successfully connected to Neo4j AuraDB instance.")
+        print("\n✓ Successfully connected to Memgraph Cloud instance.")
         
         with driver.session() as session:
             drop_all_data(session)
@@ -193,13 +218,14 @@ def main():
             ingest_properties(session, layer2_df)
             ingest_utilities(session, layer2_df)
             ingest_fbr_returns(session, layer2_df)
+            infer_spatial_edges(session)
             
         driver.close()
         print("\n" + "="*78)
         print("  Graph materialization successfully completed!")
         print("="*78)
     except Exception as e:
-        print(f"\n❌ Error connecting to or updating Neo4j: {e}")
+        print(f"\n❌ Error connecting to or updating Memgraph: {e}")
 
 if __name__ == "__main__":
     main()

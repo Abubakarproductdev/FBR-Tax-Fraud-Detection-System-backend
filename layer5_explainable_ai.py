@@ -1,15 +1,15 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  LAYER 5: Explainable AI & Automated Audit Trails                          ║
-║                                                                            ║
-║  Extracts the Top 5 highest-risk individuals from the Layer 4 Hybrid       ║
-║  Profiles and leverages the Groq API (llama3-8b-8192) to generate          ║
-║  strictly formatted, legally-toned Audit Justification Notices.            ║
-║  Outputs results to a JSON manifest for frontend consumption.              ║
-║                                                                            ║
-║  Author : Lead AI Engineer                                                 ║
-║  Inputs : layer4_hybrid_profiles.csv, GROQ_API_KEY                         ║
-║  Output : layer5_audit_manifest.json                                       ║
+║  LAYER 5: Explainable AI & Automated Audit Trails                            ║
+║                                                                              ║
+║  Extracts ALL individuals from the Layer 4 Hybrid Profiles and leverages     ║
+║  the Groq API (llama3-8b-8192) to generate strictly formatted, legally-      ║
+║  toned Audit Justification Notices.                                          ║
+║  Outputs results to a JSON manifest for frontend consumption.                ║
+║                                                                              ║
+║  Author : Lead AI Engineer                                                   ║
+║  Inputs : layer4_hybrid_profiles.csv, GROQ_API_KEY                           ║
+║  Output : layer5_audit_manifest.json                                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 """
 
@@ -46,27 +46,30 @@ def main():
         print(f"Error: {L4_PATH} not found. Please run Layer 4 first.")
         return
 
-    # Extract Top 5 based on final_hybrid_risk_score
-    top5 = df.sort_values(by="final_hybrid_risk_score", ascending=False).head(5)
-    print(f"       ✓ Extracted {len(top5)} highest-risk profiles.")
+    # Extract ALL profiles, sorted by highest risk first
+    target_profiles = df.sort_values(by="final_hybrid_risk_score", ascending=False)
+    total_profiles = len(target_profiles)
+    print(f"       ✓ Extracted all {total_profiles} profiles for full dashboard population.")
 
     # ──────────────────────────────────────────────────────────────────────────────
-    # § 2. AGENTIC RAG PROMPTING
+    # § 2. AGENTIC AI PROMPTING
     # ──────────────────────────────────────────────────────────────────────────────
     print("\n[2/3] Generating AI Audit Justification Notices (via Groq llama-3.1-8b-instant)...")
+    print("      (This may take 60-90 seconds due to API rate limits. Please wait.)\n")
     
     client = Groq(api_key=GROQ_API_KEY)
     system_prompt = "You are a Senior FBR Forensic Auditor. Follow generation rules with absolute strictness."
     
     manifest_data = []
+    current_count = 1
 
-    for idx, row in top5.iterrows():
+    for idx, row in target_profiles.iterrows():
         cid = row['canonical_id']
         income = float(row['total_declared_income'])
         # Wealth is the sum of property and vehicles
         wealth = float(row.get('property_footprint_pkr', 0) + row.get('vehicle_footprint_pkr', 0))
         utility = float(row.get('annual_utility_bill_pkr', 0))
-        gnn_score = float(row['gnn_structural_anomaly_score'])
+        gds_score = float(row['gds_structural_anomaly_score'])
         hybrid_score = float(row['final_hybrid_risk_score'])
 
         user_prompt = f"""
@@ -75,7 +78,7 @@ def main():
         - Total Declared Income: PKR {income:,.0f}
         - Total Visible Wealth (Properties + Vehicles): PKR {wealth:,.0f}
         - Annual Utility Bills: PKR {utility:,.0f}
-        - GNN Structural Anomaly Score: {gnn_score:.2f} / 100
+        - GDS Structural Anomaly Score: {gds_score:.2f} / 100
 
         Generation Rules:
         Generate an 'Audit Justification Notice' that is EXACTLY three sentences long. Do not include any greetings, bullet points, or extra text.
@@ -98,7 +101,7 @@ def main():
             
             notice = response.choices[0].message.content.strip()
 
-            print(f"\n  ┌─ PROFILE: {cid}")
+            print(f"  ┌─ PROFILE {current_count}/{total_profiles}: {cid}")
             print(f"  │  Hybrid Risk Score: {hybrid_score:.2f} / 100")
             print(f"  │  AI Audit Notice:")
             wrapped_notice = textwrap.fill(notice, width=70, initial_indent="  │    ", subsequent_indent="  │    ")
@@ -111,9 +114,10 @@ def main():
                 "total_declared_income": income,
                 "total_visible_wealth_pkr": wealth,
                 "annual_utility_bill_pkr": utility,
-                "gnn_structural_anomaly_score": gnn_score,
+                "gds_structural_anomaly_score": gds_score,
                 "final_hybrid_risk_score": hybrid_score,
-                "audit_justification_notice": notice
+                "audit_justification_notice": notice,
+                "audit_status": "Pending Review" # Default status for the Next.js UI
             })
             
             # Brief sleep to avoid hitting rate limits on free/developer tiers
@@ -121,6 +125,8 @@ def main():
 
         except Exception as e:
             print(f"\n  [ERROR] Failed to generate notice for {cid}: {str(e)}")
+            
+        current_count += 1
 
     # ──────────────────────────────────────────────────────────────────────────────
     # § 3. OUTPUT & EXPORT
