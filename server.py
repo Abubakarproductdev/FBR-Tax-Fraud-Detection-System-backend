@@ -45,7 +45,7 @@ class ProfileSchema(BaseModel):
     total_declared_income: float
     total_visible_wealth_pkr: float
     annual_utility_bill_pkr: float
-    gnn_structural_anomaly_score: float
+    gds_structural_anomaly_score: float  # Updated to match Memgraph architecture
     final_hybrid_risk_score: float
     audit_justification_notice: str
     audit_status: Optional[str] = "Pending Review"
@@ -142,9 +142,10 @@ def run_pipeline():
         "layer5_explainable_ai.py"
     ]
     
-    # Use the executable from the active environment to ensure dependencies 
-    # (like PyTorch, Neo4j, Groq) are correctly resolved during subprocess calls.
     python_exe = sys.executable
+    
+    # Explicitly pass the current environment variables so Groq/Memgraph keys are inherited
+    env = os.environ.copy()
 
     for script in pipeline_scripts:
         script_path = os.path.join(BASE_DIR, script)
@@ -160,7 +161,8 @@ def run_pipeline():
                 cwd=BASE_DIR, 
                 capture_output=True, 
                 text=True, 
-                check=True
+                check=True,
+                env=env
             )
             print(f"Finished {script} successfully.")
             

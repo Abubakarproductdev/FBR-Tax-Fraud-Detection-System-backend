@@ -1,12 +1,152 @@
 [
     {
+        "canonical_id": "3ee9b8d3-4f1a-44cd-ab56-d8f09da978d2",
+        "total_declared_income": 4391417280.0,
+        "total_visible_wealth_pkr": 515405330593.0,
+        "annual_utility_bill_pkr": 1856610732.0,
+        "gds_structural_anomaly_score": 100.0,
+        "final_hybrid_risk_score": 62.535,
+        "audit_justification_notice": "This Audit Justification Notice serves as formal documentation of the discrepancies observed in the subject's financial profile. The total discrepancy between their declared income of PKR 4,391,417,280 and their visible asset footprint of PKR 515,405,330,593, along with their annual utility bills of PKR 1,856,610,732, amounts to PKR 510,913,912,323. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit, as per Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "a647e824-8edb-4912-adc1-5f92ce772ca4",
+        "total_declared_income": 57445070.0,
+        "total_visible_wealth_pkr": 6307725893.0,
+        "annual_utility_bill_pkr": 30277284.0,
+        "gds_structural_anomaly_score": 79.19706410872449,
+        "final_hybrid_risk_score": 56.15411923261735,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 6,250,580,823. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential non-compliance with tax laws. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "6b71334c-53a4-419b-b0af-ce9599a2dd7b",
+        "total_declared_income": 3793591.0,
+        "total_visible_wealth_pkr": 1938495285.0,
+        "annual_utility_bill_pkr": 4791672.0,
+        "gds_structural_anomaly_score": 25.500135629908243,
+        "final_hybrid_risk_score": 53.46504068897247,
+        "audit_justification_notice": "This notice serves as formal documentation of a significant financial discrepancy between the taxpayer's declared income of PKR 3,793,591 and their visible asset footprint of PKR 1,938,495,285, resulting in a discrepancy of PKR 1,934,701,694. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to examine the taxpayer's financial activities and determine the source of the unexplained wealth.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "b76e6fc9-7679-409b-8e90-bb6f9651630b",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 509792291.0,
+        "annual_utility_bill_pkr": 337272.0,
+        "gds_structural_anomaly_score": 8.63119831142889,
+        "final_hybrid_risk_score": 52.58935949342867,
+        "audit_justification_notice": "This audit notice is issued to address a significant financial discrepancy of PKR 509,792,291 between the taxpayer's declared income of PKR 0 and their total visible wealth, including properties and vehicles, as well as their annual utility bills of PKR 337,272. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This audit notice formally initiates an asset verification audit, as per Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "101d791b-9000-40a8-8763-31c1fcb349f0",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 374721229.0,
+        "annual_utility_bill_pkr": 125088.0,
+        "gds_structural_anomaly_score": 7.531495275088076,
+        "final_hybrid_risk_score": 52.25944858252642,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 374,721,229. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of the taxpayer's assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "5fb6d98a-bd05-4756-aeec-cf3b7ebfcaad",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 7134936.0,
+        "annual_utility_bill_pkr": 640884.0,
+        "gds_structural_anomaly_score": 4.877177733950404,
+        "final_hybrid_risk_score": 51.46315332018512,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 7,134,936. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural irregularity. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of the taxpayer's assets and utility bills.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "bd7b9bd4-e513-4b9d-9bfb-5ea351de61e3",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 201652401.0,
+        "annual_utility_bill_pkr": 260160.0,
+        "gds_structural_anomaly_score": 4.877177733950404,
+        "final_hybrid_risk_score": 51.46315332018512,
+        "audit_justification_notice": "This audit is initiated due to a significant financial discrepancy of PKR 201,652,401 between the taxpayer's declared income of PKR 0 and their total visible wealth, coupled with annual utility bills of PKR 260,160. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of the taxpayer's assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "d98c4097-930f-42b8-8feb-37b15458e8da",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 17495530.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 4.618529879629918,
+        "final_hybrid_risk_score": 51.385558963888975,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 0 and their visible asset footprint of PKR 17,495,530 is a significant PKR 17,495,530. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "a030cc9e-2484-4274-9401-aca8fcfd36f6",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 9480896.0,
+        "annual_utility_bill_pkr": 319860.0,
+        "gds_structural_anomaly_score": 4.618529879629918,
+        "final_hybrid_risk_score": 51.385558963888975,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income of PKR 0 and their visible asset footprint of PKR 9,480,896, coupled with their annual utility bills of PKR 319,860, amounts to PKR 9,800,756. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "c513544b-2b3a-413a-b5d2-eda3560d5005",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 4021785.0,
+        "annual_utility_bill_pkr": 310332.0,
+        "gds_structural_anomaly_score": 4.618529879629918,
+        "final_hybrid_risk_score": 51.385558963888975,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 4,021,785. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
         "canonical_id": "7269e5a2-d789-4bc7-835e-8dd25b5a6af6",
         "total_declared_income": 0.0,
         "total_visible_wealth_pkr": 0.0,
         "annual_utility_bill_pkr": 774948.0,
-        "gnn_structural_anomaly_score": 100.0,
-        "final_hybrid_risk_score": 100.0,
-        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 774,948. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 774,948, which is their annual utility bills. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "6e8e9edd-0b14-4595-b8be-fb053193e173",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 1427352.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 1,427,352. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "82ec8b38-fa24-4929-bb25-5c39ba3924b3",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 268440.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 0 and their visible asset footprint or utility spend of PKR 268,440 is a significant PKR 268,440. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural anomaly. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "490b55f0-bbb4-4940-a820-dbd03a852492",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 3039948.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 3,039,948. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural anomaly. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "52766d31-b651-43f7-9172-17dde2f829f9",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 93324.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 93,324. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural anomaly score of 4.13 / 100. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income.",
         "audit_status": "Pending Review"
     },
     {
@@ -14,35 +154,439 @@
         "total_declared_income": 0.0,
         "total_visible_wealth_pkr": 0.0,
         "annual_utility_bill_pkr": 651192.0,
-        "gnn_structural_anomaly_score": 89.46,
-        "final_hybrid_risk_score": 95.78,
-        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 651,192. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 89.46 / 100. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 651,192. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
     },
     {
-        "canonical_id": "82ec8b38-fa24-4929-bb25-5c39ba3924b3",
+        "canonical_id": "23a64262-611f-4094-a5ee-be1698f7e864",
         "total_declared_income": 0.0,
-        "total_visible_wealth_pkr": 0.0,
-        "annual_utility_bill_pkr": 268440.0,
-        "gnn_structural_anomaly_score": 72.31,
-        "final_hybrid_risk_score": 88.92,
-        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 268,440, which is their annual utility bills. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a GNN Structural Anomaly Score of 72.31 / 100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
-    },
-    {
-        "canonical_id": "52766d31-b651-43f7-9172-17dde2f829f9",
-        "total_declared_income": 0.0,
-        "total_visible_wealth_pkr": 0.0,
-        "annual_utility_bill_pkr": 93324.0,
-        "gnn_structural_anomaly_score": 67.05,
-        "final_hybrid_risk_score": 86.82,
-        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 93,324. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 67.05 out of 100. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income."
+        "total_visible_wealth_pkr": 2025466.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "This audit notice is issued to address a significant financial discrepancy of PKR 2,025,466 between the taxpayer's declared income of PKR 0 and their total visible wealth. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of the taxpayer's assets and determine the source of their unexplained wealth.",
+        "audit_status": "Pending Review"
     },
     {
         "canonical_id": "2d3b13bf-4a40-4993-85d9-d378cbc4b64f",
         "total_declared_income": 0.0,
         "total_visible_wealth_pkr": 0.0,
         "annual_utility_bill_pkr": 92424.0,
-        "gnn_structural_anomaly_score": 67.02,
-        "final_hybrid_risk_score": 86.81,
-        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 92,424. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a Structural Anomaly Score of 67.02/100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001."
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 51.23945013754032,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 92,424, which is their annual utility bills. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "1941e61b-8bb6-4b04-9faf-2f07e877661d",
+        "total_declared_income": 0.0,
+        "total_visible_wealth_pkr": 23824465.0,
+        "annual_utility_bill_pkr": 4147068.0,
+        "gds_structural_anomaly_score": 0.8767046298989527,
+        "final_hybrid_risk_score": 50.26301138896969,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 23,824,465. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a GDS Structural Anomaly Score of 0.88/100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "c3fd6e40-99e5-44d4-b3c2-574f71fac4b0",
+        "total_declared_income": 3043252.0,
+        "total_visible_wealth_pkr": 2706058634.0,
+        "annual_utility_bill_pkr": 3776268.0,
+        "gds_structural_anomaly_score": 1.3069777421471542,
+        "final_hybrid_risk_score": 47.81209332264415,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 2,703,706,382. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural anomaly. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of their assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "d8230d63-6636-459e-8904-46b1f4fc91a8",
+        "total_declared_income": 3389744.0,
+        "total_visible_wealth_pkr": 1801887029.0,
+        "annual_utility_bill_pkr": 4018776.0,
+        "gds_structural_anomaly_score": 3.950036525565437,
+        "final_hybrid_risk_score": 47.07001095766963,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the financial discrepancies observed in the subject's profile. The total discrepancy between their declared income of PKR 3,389,744 and their visible asset footprint of PKR 1,801,887,029, along with annual utility bills of PKR 4,018,776, amounts to PKR 1,797,497,285. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting a thorough investigation under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "9c1d1705-2a9e-44a2-9eb0-55f03f93924b",
+        "total_declared_income": 50000.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 227664.0,
+        "gds_structural_anomaly_score": 4.618529879629918,
+        "final_hybrid_risk_score": 46.64555896388897,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income of PKR 50,000 and their visible asset footprint or utility spend of PKR 227,664 is PKR 177,664. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and determine the source of their unexplained income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "68f9ad43-b858-4902-b509-7756e57f104a",
+        "total_declared_income": 3873895.0,
+        "total_visible_wealth_pkr": 1543608592.0,
+        "annual_utility_bill_pkr": 3994020.0,
+        "gds_structural_anomaly_score": 0.0,
+        "final_hybrid_risk_score": 44.795,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 1,539,712,697. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "d767821e-4248-416d-96cd-4875093c6c9e",
+        "total_declared_income": 2072552.0,
+        "total_visible_wealth_pkr": 374953591.0,
+        "annual_utility_bill_pkr": 5493060.0,
+        "gds_structural_anomaly_score": 3.551958472864968,
+        "final_hybrid_risk_score": 43.7805875418595,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 372,880,039. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "f5a420f9-e2e4-4c92-9268-fc5ade1a5a1e",
+        "total_declared_income": 8264263.0,
+        "total_visible_wealth_pkr": 1523038667.0,
+        "annual_utility_bill_pkr": 5439552.0,
+        "gds_structural_anomaly_score": 12.752874197282736,
+        "final_hybrid_risk_score": 42.885862259184826,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the profile data. The total financial discrepancy between the declared income of PKR 8,264,263 and the visible asset footprint or utility spend of PKR 1,523,038,667 is PKR 1,514,774,404. Our Graph Neural Network has flagged the asset network as highly anomalous and complex, warranting a thorough investigation under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to initiate an asset verification audit.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "f6cf3dec-984a-4411-9aab-383f3442b545",
+        "total_declared_income": 1305374.0,
+        "total_visible_wealth_pkr": 20738122.0,
+        "annual_utility_bill_pkr": 4682268.0,
+        "gds_structural_anomaly_score": 2.8877106296069,
+        "final_hybrid_risk_score": 40.02131318888207,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 19,432,748. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of their assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "62163a46-efb6-43aa-b9a5-5439318a6266",
+        "total_declared_income": 4053761.0,
+        "total_visible_wealth_pkr": 732174743.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 3.253582726382419,
+        "final_hybrid_risk_score": 37.596074817914726,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 727,121,982. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural irregularity. This audit is formally initiated to verify the taxpayer's assets under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "7b7b861c-0b8e-46af-99b1-54d59f9d9a51",
+        "total_declared_income": 6482124.0,
+        "total_visible_wealth_pkr": 761295579.0,
+        "annual_utility_bill_pkr": 3846684.0,
+        "gds_structural_anomaly_score": 9.14088759432667,
+        "final_hybrid_risk_score": 36.492266278298,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the financial data of the individual with Canonical ID: 7b7b861c-0b8e-46af-99b1-54d59f9d9a51. The financial discrepancy between their declared income of PKR 6,482,124 and their visible asset footprint of PKR 761,295,579, along with annual utility bills of PKR 3,846,684, amounts to PKR 754,813,455. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "3950c827-b268-4201-8ee3-c011c4d9392b",
+        "total_declared_income": 6943491.0,
+        "total_visible_wealth_pkr": 1149017240.0,
+        "annual_utility_bill_pkr": 1852704.0,
+        "gds_structural_anomaly_score": 0.0,
+        "final_hybrid_risk_score": 36.45,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 1,142,074,749. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential misalignment between reported income and actual wealth. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "43061a6f-0315-430b-85ee-5c557da46547",
+        "total_declared_income": 3607504.0,
+        "total_visible_wealth_pkr": 448457481.0,
+        "annual_utility_bill_pkr": 3214224.0,
+        "gds_structural_anomaly_score": 1.3069777421471542,
+        "final_hybrid_risk_score": 36.337093322644144,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the financial data of the individual with Canonical ID: 43061a6f-0315-430b-85ee-5c557da46547. The financial discrepancy between their declared income of PKR 3,607,504 and their visible asset footprint of PKR 448,457,481, along with annual utility bills of PKR 3,214,224, amounts to PKR 444,849,977. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "0b87acbd-34c8-43d6-96c1-af772e0dc2e0",
+        "total_declared_income": 27822716.0,
+        "total_visible_wealth_pkr": 1516946586.0,
+        "annual_utility_bill_pkr": 7278096.0,
+        "gds_structural_anomaly_score": 37.44245254013752,
+        "final_hybrid_risk_score": 25.352735762041256,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 27,822,716 and their visible asset footprint of PKR 1,516,946,586, along with their annual utility bills of PKR 7,278,096, amounts to PKR 1,489,124,270. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating potential non-compliance with tax regulations. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "978073ec-791f-4f92-b873-216f1aa241f1",
+        "total_declared_income": 9414454.0,
+        "total_visible_wealth_pkr": 565137982.0,
+        "annual_utility_bill_pkr": 2094864.0,
+        "gds_structural_anomaly_score": 14.57016677657208,
+        "final_hybrid_risk_score": 22.616050032971625,
+        "audit_justification_notice": "This Audit Justification Notice serves to inform that the subject's declared income of PKR 9,414,454 significantly underrepresents their total visible wealth of PKR 565,137,982, resulting in a discrepancy of PKR 555,723,528. Our Graph Neural Network has identified the subject's asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "edeafbe4-73c9-49a1-9b5d-8f6d94d166a3",
+        "total_declared_income": 5618462.0,
+        "total_visible_wealth_pkr": 448146431.0,
+        "annual_utility_bill_pkr": 193032.0,
+        "gds_structural_anomaly_score": 3.345653448081265,
+        "final_hybrid_risk_score": 21.62369603442438,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 5,618,462 and their visible asset footprint of PKR 448,146,431, along with their annual utility bills of PKR 193,032, amounts to PKR 442,528,069. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating a potential structural irregularity. This audit notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "a5d0b1fc-6ecf-4253-81d8-132dbb6ef0d2",
+        "total_declared_income": 1713530.0,
+        "total_visible_wealth_pkr": 28635705.0,
+        "annual_utility_bill_pkr": 1426608.0,
+        "gds_structural_anomaly_score": 3.551958472864968,
+        "final_hybrid_risk_score": 17.79558754185949,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 27,922,175. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of their assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "5d5544f2-7082-4634-818c-03c841d5bf01",
+        "total_declared_income": 16460826.0,
+        "total_visible_wealth_pkr": 1181998236.0,
+        "annual_utility_bill_pkr": 509568.0,
+        "gds_structural_anomaly_score": 0.0,
+        "final_hybrid_risk_score": 16.695,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 1,164,537,410. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating potential non-compliance with tax laws. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "e20fac73-e72b-4de1-a978-0ffce3221d49",
+        "total_declared_income": 2717104.0,
+        "total_visible_wealth_pkr": 31328894.0,
+        "annual_utility_bill_pkr": 1881360.0,
+        "gds_structural_anomaly_score": 4.588975098693382,
+        "final_hybrid_risk_score": 15.126692529608016,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 28,611,790. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "86aa0604-63de-4b0e-a848-1c62a6e4cea8",
+        "total_declared_income": 19436258.0,
+        "total_visible_wealth_pkr": 59162354.0,
+        "annual_utility_bill_pkr": 5215392.0,
+        "gds_structural_anomaly_score": 39.2085305346077,
+        "final_hybrid_risk_score": 11.762559160382311,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the financial data of the individual with Canonical ID 86aa0604-63de-4b0e-a848-1c62a6e4cea8. The financial discrepancy between their declared income of PKR 19,436,258 and their visible asset footprint or utility spend of PKR 59,162,354 and PKR 5,215,392 respectively amounts to PKR 34,725,096. Our Graph Neural Network has flagged their asset network as highly anomalous and complex with a GDS Structural Anomaly Score of 39.21 / 100, warranting a formal initiation of an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "f21f69b5-12f9-49b7-a9a5-97882fdb6682",
+        "total_declared_income": 827202.0,
+        "total_visible_wealth_pkr": 5232222.0,
+        "annual_utility_bill_pkr": 516948.0,
+        "gds_structural_anomaly_score": 3.253582726382419,
+        "final_hybrid_risk_score": 8.936074817914726,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 4,404,020. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "de4c2c55-0760-4f03-b244-dc1d71c665b3",
+        "total_declared_income": 1919673.0,
+        "total_visible_wealth_pkr": 52549137.0,
+        "annual_utility_bill_pkr": 755640.0,
+        "gds_structural_anomaly_score": 3.345653448081265,
+        "final_hybrid_risk_score": 6.508696034424379,
+        "audit_justification_notice": "This Audit Justification Notice serves to inform that the individual's declared income of PKR 1,919,673 is significantly lower than their total visible wealth of PKR 52,549,137 and annual utility bills of PKR 755,640, indicating a financial discrepancy of PKR 50,669,504. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "a1611381-99d3-4355-beb1-490a50eb5381",
+        "total_declared_income": 7856422.0,
+        "total_visible_wealth_pkr": 153258840.0,
+        "annual_utility_bill_pkr": 4684584.0,
+        "gds_structural_anomaly_score": 8.520257135514456,
+        "final_hybrid_risk_score": 4.271077140654337,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 145,402,418. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of their assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "5c0e0fe8-4603-4b4a-b046-e1fa2e7510b8",
+        "total_declared_income": 11351925.0,
+        "total_visible_wealth_pkr": 217035625.0,
+        "annual_utility_bill_pkr": 3738696.0,
+        "gds_structural_anomaly_score": 9.14088759432667,
+        "final_hybrid_risk_score": 2.742266278298001,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the financial discrepancies observed in the subject's profile. The subject's declared income of PKR 11,351,925 is significantly lower than their visible asset footprint of PKR 217,035,625 and annual utility bills of PKR 3,738,696, indicating a discrepancy of PKR 205,683,700. Our Graph Neural Network has flagged the subject's asset network as highly anomalous and complex, warranting an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "467d62a3-2e72-4dae-b0e5-4e6b4b6524cb",
+        "total_declared_income": 4284332.0,
+        "total_visible_wealth_pkr": 5981220.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 7.531495275088076,
+        "final_hybrid_risk_score": 2.259448582526423,
+        "audit_justification_notice": "This notice is issued to formally document the discrepancies in the profile data. The total declared income of PKR 4,284,332 is significantly lower than the total visible wealth of PKR 5,981,220, indicating a financial discrepancy of PKR 1,696,888. Our Graph Neural Network has flagged the asset network as highly anomalous and complex, warranting a thorough investigation under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, which requires an asset verification audit to be conducted.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "11878bcd-1a26-4363-82bd-acf2522639cb",
+        "total_declared_income": 9772360.0,
+        "total_visible_wealth_pkr": 31976679.0,
+        "annual_utility_bill_pkr": 4673892.0,
+        "gds_structural_anomaly_score": 6.009475314430617,
+        "final_hybrid_risk_score": 1.802842594329185,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 22,204,319. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "ea4ae6a1-4f86-47fd-abf5-ba105d110ff5",
+        "total_declared_income": 16974872.0,
+        "total_visible_wealth_pkr": 35500997.0,
+        "annual_utility_bill_pkr": 1862328.0,
+        "gds_structural_anomaly_score": 6.009475314430617,
+        "final_hybrid_risk_score": 1.802842594329185,
+        "audit_justification_notice": "This Audit Justification Notice serves to inform that the subject's total declared income of PKR 16,974,872 significantly underestimates their total visible wealth of PKR 35,500,997 and annual utility bills of PKR 1,862,328, resulting in a discrepancy of PKR 18,526,125. Our Graph Neural Network has flagged the subject's asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "7e04e0b9-d5c6-4e55-9872-9574358170d1",
+        "total_declared_income": 9832220.0,
+        "total_visible_wealth_pkr": 22703268.0,
+        "annual_utility_bill_pkr": 1605576.0,
+        "gds_structural_anomaly_score": 5.74851948301928,
+        "final_hybrid_risk_score": 1.7245558449057838,
+        "audit_justification_notice": "This Audit Justification Notice serves as formal documentation for the initiation of an asset verification audit. The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 12,870,988 (PKR 22,703,268 - PKR 9,832,220). Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting a thorough examination under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "ed5f8241-7c6f-4035-8c70-77e0ab0f5138",
+        "total_declared_income": 771391.0,
+        "total_visible_wealth_pkr": 13395542.0,
+        "annual_utility_bill_pkr": 70860.0,
+        "gds_structural_anomaly_score": 4.877177733950404,
+        "final_hybrid_risk_score": 1.4631533201851212,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 12,624,151. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting a thorough examination. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "478e4418-2f23-42d3-9769-bffc2f191858",
+        "total_declared_income": 3812996.0,
+        "total_visible_wealth_pkr": 10401480.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 4.618529879629918,
+        "final_hybrid_risk_score": 1.3855589638889754,
+        "audit_justification_notice": "This notice serves to inform that the total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 6,588,484. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the legitimacy of their assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "90125ca3-a3d0-4e29-844c-6fd1e048e28b",
+        "total_declared_income": 18570738.0,
+        "total_visible_wealth_pkr": 20748524.0,
+        "annual_utility_bill_pkr": 4597968.0,
+        "gds_structural_anomaly_score": 4.521511206416321,
+        "final_hybrid_risk_score": 1.3564533619248962,
+        "audit_justification_notice": "This Audit Justification Notice serves as formal documentation for the initiation of an asset verification audit. The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 2,177,786. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting a thorough examination under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "d0deddce-bb50-4072-a91f-5a8001ee0455",
+        "total_declared_income": 4179899.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 1.239450137540318,
+        "audit_justification_notice": "The total financial discrepancy between the declared income and the visible asset footprint or utility spend is PKR 4,179,899. Our Graph Neural Network has flagged the asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "2d6d2e90-ba2d-4d56-9bcc-a4b2daa4437c",
+        "total_declared_income": 4808981.0,
+        "total_visible_wealth_pkr": 0.0,
+        "annual_utility_bill_pkr": 0.0,
+        "gds_structural_anomaly_score": 4.131500458467727,
+        "final_hybrid_risk_score": 1.239450137540318,
+        "audit_justification_notice": "This notice serves as formal documentation of a significant financial discrepancy of PKR 4,808,981 between the taxpayer's declared income and their negligible visible asset footprint or utility spend. Our Graph Neural Network has flagged the taxpayer's asset network as highly anomalous and complex, warranting further investigation. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and determine the source of the unexplained income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "93b55763-2493-4e9f-9bd8-e7cad869544a",
+        "total_declared_income": 9564234.0,
+        "total_visible_wealth_pkr": 283304513.0,
+        "annual_utility_bill_pkr": 1369452.0,
+        "gds_structural_anomaly_score": 3.950036525565437,
+        "final_hybrid_risk_score": 1.185010957669631,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the financial data of the subject. The total discrepancy between their declared income and visible asset footprint or utility spend amounts to PKR 273,740,279. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting a thorough investigation under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, which formally initiates an asset verification audit.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "13238bdb-7108-460e-9764-913a104d6d04",
+        "total_declared_income": 2539570.0,
+        "total_visible_wealth_pkr": 10538501.0,
+        "annual_utility_bill_pkr": 307896.0,
+        "gds_structural_anomaly_score": 3.253582726382419,
+        "final_hybrid_risk_score": 0.9760748179147256,
+        "audit_justification_notice": "This Audit Justification Notice is issued to verify the discrepancies in the financial data of the individual with Canonical ID: 13238bdb-7108-460e-9764-913a104d6d04. The declared income of PKR 2,539,570 is significantly lower than the total visible wealth of PKR 10,538,501 and annual utility bills of PKR 307,896, resulting in a discrepancy of PKR 7,989,929. Our Graph Neural Network has flagged the asset network as highly anomalous and complex, warranting an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "fe07452c-f06b-4ea6-b01b-7acbd06867bf",
+        "total_declared_income": 7380099.0,
+        "total_visible_wealth_pkr": 13750619.0,
+        "annual_utility_bill_pkr": 3522132.0,
+        "gds_structural_anomaly_score": 2.8877106296069,
+        "final_hybrid_risk_score": 0.86631318888207,
+        "audit_justification_notice": "The total discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 6,370,520 (PKR 13,750,619 - PKR 7,380,099). Our Graph Neural Network has flagged their asset network as highly anomalous and complex, indicating potential unreported income or assets. This audit is formally initiated under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001, to verify the taxpayer's assets and income.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "6c9aa89f-134a-4da0-93cb-cda805b3dce3",
+        "total_declared_income": 5217795.0,
+        "total_visible_wealth_pkr": 21784224.0,
+        "annual_utility_bill_pkr": 4132764.0,
+        "gds_structural_anomaly_score": 1.3069777421471542,
+        "final_hybrid_risk_score": 0.3920933226441462,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 5,217,795 and their visible asset footprint or utility spend of PKR 21,784,224 and PKR 4,132,764 respectively amounts to PKR 16,656,429. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "126b2e45-f1f8-4973-beea-0230f450eb08",
+        "total_declared_income": 3535814.0,
+        "total_visible_wealth_pkr": 21251159.0,
+        "annual_utility_bill_pkr": 1408620.0,
+        "gds_structural_anomaly_score": 0.8767046298989527,
+        "final_hybrid_risk_score": 0.2630113889696858,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 17,715,345 (PKR 21,251,159 - PKR 3,535,814). Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a GDS Structural Anomaly Score of 0.88 / 100. This discrepancy warrants an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "e3577207-9591-4a52-9d65-7f1fc4aeab37",
+        "total_declared_income": 11903554.0,
+        "total_visible_wealth_pkr": 22419845.0,
+        "annual_utility_bill_pkr": 877896.0,
+        "gds_structural_anomaly_score": 0.8767046298989527,
+        "final_hybrid_risk_score": 0.2630113889696858,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 10,516,291, calculated as the difference between their Total Visible Wealth (PKR 22,419,845) and Total Declared Income (PKR 11,903,554). Our Graph Neural Network has flagged their asset network as highly anomalous and complex, with a GDS Structural Anomaly Score of 0.88 / 100. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "1d3398b0-316c-470c-9fe3-f38228a8c968",
+        "total_declared_income": 10566741.0,
+        "total_visible_wealth_pkr": 3252476.0,
+        "annual_utility_bill_pkr": 1049436.0,
+        "gds_structural_anomaly_score": 0.8767046298989527,
+        "final_hybrid_risk_score": 0.2630113889696858,
+        "audit_justification_notice": "The financial discrepancy between the taxpayer's declared income of PKR 10,566,741 and their visible asset footprint of PKR 3,252,476 and utility spend of PKR 1,049,436 amounts to PKR 6,264,925. Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "98e39a83-7601-462e-a284-46c89c123396",
+        "total_declared_income": 8785461.0,
+        "total_visible_wealth_pkr": 19243746.0,
+        "annual_utility_bill_pkr": 1676184.0,
+        "gds_structural_anomaly_score": 0.0,
+        "final_hybrid_risk_score": 0.0,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend is PKR 10,458,285 (PKR 19,243,746 - PKR 8,785,461). Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
+    },
+    {
+        "canonical_id": "81eab36c-18da-4a98-861e-cb7188f7de53",
+        "total_declared_income": 8375694.0,
+        "total_visible_wealth_pkr": 27670103.0,
+        "annual_utility_bill_pkr": 1078644.0,
+        "gds_structural_anomaly_score": 0.0,
+        "final_hybrid_risk_score": 0.0,
+        "audit_justification_notice": "The total financial discrepancy between the taxpayer's declared income and their visible asset footprint or utility spend amounts to PKR 19,294,409 (PKR 27,670,103 - PKR 8,375,694). Our Graph Neural Network has flagged their asset network as highly anomalous and complex, warranting further investigation. This Audit Justification Notice formally initiates an asset verification audit under Section 111 (Unexplained Income or Assets) of the Income Tax Ordinance, 2001.",
+        "audit_status": "Pending Review"
     }
 ]
